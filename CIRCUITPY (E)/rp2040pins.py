@@ -1,5 +1,5 @@
 import board
-import json 
+import json
 import digitalio as dio
 
 rp2040 = {
@@ -48,25 +48,26 @@ rp2040 = {
     'VOLTAGE_MONITOR': board.VOLTAGE_MONITOR,
 }
 
-#TODOS
+
+# TODOS
 
 # Matrix Implementations
 # Rotary Encoder Implementation
 # 
 
 def pins_init():
-    #Get Configuration from JSON
+    # Get Configuration from JSON
     with open('keyboard.json') as file:
         config = json.load(file)
         print(config)
-        #Mux 
+        # Mux
         dio.DigitalInOut(rp2040[config['mux']['com']]).direction = dio.Direction.OUTPUT
         dio.DigitalInOut(rp2040[config['mux']['s_0']]).direction = dio.Direction.OUTPUT
         dio.DigitalInOut(rp2040[config['mux']['s_1']]).direction = dio.Direction.OUTPUT
         dio.DigitalInOut(rp2040[config['mux']['s_2']]).direction = dio.Direction.OUTPUT
         dio.DigitalInOut(rp2040[config['mux']['s_3']]).direction = dio.Direction.OUTPUT
 
-        #Rows
+        # Rows
         dio.DigitalInOut(rp2040[config['rows']['row_1']]).direction = dio.Direction.OUTPUT
         dio.DigitalInOut(rp2040[config['rows']['row_2']]).direction = dio.Direction.OUTPUT
         dio.DigitalInOut(rp2040[config['rows']['row_3']]).direction = dio.Direction.OUTPUT
@@ -75,7 +76,7 @@ def pins_init():
         dio.DigitalInOut(rp2040[config['rows']['row_6']]).direction = dio.Direction.OUTPUT
         dio.DigitalInOut(rp2040[config['rows']['row_7']]).direction = dio.Direction.OUTPUT
 
-        #Rotary Encoders 
+        # Rotary Encoders
         dio.DigitalInOut(rp2040[config['encoder_0']['pin_A']]).direction = dio.Direction.INPUT
         dio.DigitalInOut(rp2040[config['encoder_0']['pin_B']]).direction = dio.Direction.INPUT
 
@@ -84,4 +85,6 @@ def pins_init():
 
         dio.DigitalInOut(rp2040[config['encoder_2']['pin_A']]).direction = dio.Direction.INPUT
         dio.DigitalInOut(rp2040[config['encoder_2']['pin_B']]).direction = dio.Direction.INPUT
+
+
 pins_init()
