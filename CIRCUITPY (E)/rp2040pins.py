@@ -50,8 +50,9 @@ rp2040 = {
 
 def pins_init():
     #Get Configuration from TOML
-    with open('keyboard.toml') as file:
+    with open('keyboard.json') as file:
         config = json.load(file)
+        print(config)
         #Mux 
         dio.DigitalInOut(rp2040[config['mux']['com']]).direction = dio.Direction.OUTPUT
         dio.DigitalInOut(rp2040[config['mux']['s_0']]).direction = dio.Direction.OUTPUT
@@ -60,22 +61,21 @@ def pins_init():
         dio.DigitalInOut(rp2040[config['mux']['s_3']]).direction = dio.Direction.OUTPUT
 
         #Rows
-        dio.DigitalInOut(rp2040['rows']['row_1']).direction = dio.Direction.OUTPUT
-        dio.DigitalInOut(rp2040['rows']['row_2']).direction = dio.Direction.OUTPUT
-        dio.DigitalInOut(rp2040['rows']['row_3']).direction = dio.Direction.OUTPUT
-        dio.DigitalInOut(rp2040['rows']['row_4']).direction = dio.Direction.OUTPUT
-        dio.DigitalInOut(rp2040['rows']['row_5']).direction = dio.Direction.OUTPUT
-        dio.DigitalInOut(rp2040['rows']['row_6']).direction = dio.Direction.OUTPUT
-        dio.DigitalInOut(rp2040['rows']['row_7']).direction = dio.Direction.OUTPUT
+        dio.DigitalInOut(rp2040[config['rows']['row_1']]).direction = dio.Direction.OUTPUT
+        dio.DigitalInOut(rp2040[config['rows']['row_2']]).direction = dio.Direction.OUTPUT
+        dio.DigitalInOut(rp2040[config['rows']['row_3']]).direction = dio.Direction.OUTPUT
+        dio.DigitalInOut(rp2040[config['rows']['row_4']]).direction = dio.Direction.OUTPUT
+        dio.DigitalInOut(rp2040[config['rows']['row_5']]).direction = dio.Direction.OUTPUT
+        dio.DigitalInOut(rp2040[config['rows']['row_6']]).direction = dio.Direction.OUTPUT
+        dio.DigitalInOut(rp2040[config['rows']['row_7']]).direction = dio.Direction.OUTPUT
 
         #Rotary Encoders 
-        dio.DigitalInOut(rp2040['encoder_0']['pin_A']).direction = dio.Direction.INPUT
-        dio.DigitalInOut(rp2040['encoder_0']['pin_B']).direction = dio.Direction.INPUT
+        dio.DigitalInOut(rp2040[config['encoder_0']['pin_A']]).direction = dio.Direction.INPUT
+        dio.DigitalInOut(rp2040[config['encoder_0']['pin_B']]).direction = dio.Direction.INPUT
 
-        dio.DigitalInOut(rp2040['encoder_1']['pin_A']).direction = dio.Direction.INPUT
-        dio.DigitalInOut(rp2040['encoder_1']['pin_B']).direction = dio.Direction.INPUT
+        dio.DigitalInOut(rp2040[config['encoder_1']['pin_A']]).direction = dio.Direction.INPUT
+        dio.DigitalInOut(rp2040[config['encoder_1']['pin_B']]).direction = dio.Direction.INPUT
 
-        dio.DigitalInOut(rp2040['encoder_2']['pin_A']).direction = dio.Direction.INPUT
-        dio.DigitalInOut(rp2040['encoder_2']['pin_B']).direction = dio.Direction.INPUT
-
+        dio.DigitalInOut(rp2040[config['encoder_2']['pin_A']]).direction = dio.Direction.INPUT
+        dio.DigitalInOut(rp2040[config['encoder_2']['pin_B']]).direction = dio.Direction.INPUT
 pins_init()
