@@ -1,5 +1,6 @@
 import board
 
+
 def pins_rp2040(input_string):
     match input_string:
         case '__class__':
