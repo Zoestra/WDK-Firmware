@@ -48,8 +48,14 @@ rp2040 = {
     'VOLTAGE_MONITOR': board.VOLTAGE_MONITOR,
 }
 
+#TODOS
+
+# Matrix Implementations
+# Rotary Encoder Implementation
+# 
+
 def pins_init():
-    #Get Configuration from TOML
+    #Get Configuration from JSON
     with open('keyboard.json') as file:
         config = json.load(file)
         print(config)
