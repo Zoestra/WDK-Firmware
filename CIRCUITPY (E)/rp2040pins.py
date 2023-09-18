@@ -51,7 +51,7 @@ rp2040 = {
 def pins_init():
     #Get Configuration from TOML
     with open('keyboard.toml') as file:
-        config = toml.load(file)
+        config = json.load(file)
         #Mux 
         dio.DigitalInOut(rp2040[config['mux']['com']]).direction = dio.Direction.OUTPUT
         dio.DigitalInOut(rp2040[config['mux']['s_0']]).direction = dio.Direction.OUTPUT
