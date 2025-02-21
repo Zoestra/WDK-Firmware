@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "5a1b77909b92d864",
+    "type": "split",
+    "children": [
+      {
+        "id": "8504a3f37f316fb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad3f32bfac7845db",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Rotomaxetron-Wiring-Diagram.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Rotomaxetron-Wiring-Diagram.excalidraw"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "56457f3fe362be26",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c4e80e8f162d8b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9eebaa2dbf1d7ee1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a3de025da096fc9e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ffddb50155a8f0d0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "435d01cc6536cacb",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a834f4643c3de36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "604467381f7f64b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9933175ec28b89f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "9505bd80dc97779d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6d0c25d77bc4248f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "ad3f32bfac7845db",
+  "lastOpenFiles": [
+    "CD74HC4067-16_0.png",
+    "RP2040-LCD-0.96.png",
+    "RP2040-LCD-0.96_0.png",
+    "Excalidraw/Rotomaxetron-Wiring-Diagram.excalidraw.md",
+    "CD74HC4067-16.png",
+    "RP2040-LCD-0.96.jpg",
+    "RP2040-LCD-0.96-pinout.jpg",
+    "Waveshare 2040 Pinout Reference",
+    "Excalidraw",
+    "Welcome.md"
+  ]
+}
