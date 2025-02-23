@@ -18,6 +18,30 @@
               "icon": "excalidraw-icon",
               "title": "Rotomaxetron-Wiring-Diagram.excalidraw"
             }
+          },
+          {
+            "id": "49ab1fae9b368455",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/RP2040-LCD-0.96-pinout.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "RP2040-LCD-0.96-pinout"
+            }
+          },
+          {
+            "id": "502006d677b621fb",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/CD74HC4067-16.png"
+              },
+              "icon": "lucide-image",
+              "title": "CD74HC4067-16"
+            }
           }
         ]
       }
@@ -166,15 +190,28 @@
   },
   "active": "ad3f32bfac7845db",
   "lastOpenFiles": [
-    "CD74HC4067-16_0.png",
-    "RP2040-LCD-0.96.png",
-    "RP2040-LCD-0.96_0.png",
+    "TRRS.png",
+    "Images/TRRS.png",
+    "Waveshare RP2040 LCD.md",
+    "Images/CD74HC4067-16.png",
+    "Images/RP2040-LCD-0.96-pinout.jpg",
+    "Welcome.md",
+    "Images/RotoMaxetron-Schematic.png",
+    "PDFs/rp2040-datasheet.pdf",
     "Excalidraw/Rotomaxetron-Wiring-Diagram.excalidraw.md",
-    "CD74HC4067-16.png",
-    "RP2040-LCD-0.96.jpg",
-    "RP2040-LCD-0.96-pinout.jpg",
+    "PDFs/cd74hc4067-1.pdf",
+    "PDFs",
+    "Images",
+    "Images/sk6812 strip_0.png",
+    "Images/sk6812 strip.png",
+    "Images/RP2040-LCD-0.96_0.png",
+    "Images/RP2040-LCD-0.96.png",
+    "RotoMaxetron-Schematic",
+    "RotoMaxetron-Schematic.part",
+    "Images/Matrix.png",
+    "Matrix.png.part",
+    "Images/CD74HC4067-16_0.png",
     "Waveshare 2040 Pinout Reference",
-    "Excalidraw",
-    "Welcome.md"
+    "Excalidraw"
   ]
 }
