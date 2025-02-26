@@ -11,24 +11,26 @@
             "id": "ad3f32bfac7845db",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Rotomaxetron-Wiring-Diagram.excalidraw.md"
+                "file": "Waveshare RP2040 LCD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Rotomaxetron-Wiring-Diagram.excalidraw"
+              "icon": "lucide-file",
+              "title": "Waveshare RP2040 LCD"
             }
           },
           {
             "id": "49ab1fae9b368455",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "excalidraw",
               "state": {
-                "file": "Images/RP2040-LCD-0.96-pinout.jpg"
+                "file": "Rotomaxetron-Wiring-Diagram.excalidraw.md"
               },
-              "icon": "lucide-image",
-              "title": "RP2040-LCD-0.96-pinout"
+              "icon": "excalidraw-icon",
+              "title": "Rotomaxetron-Wiring-Diagram.excalidraw"
             }
           },
           {
@@ -43,7 +45,8 @@
               "title": "CD74HC4067-16"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,17 +191,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ad3f32bfac7845db",
+  "active": "49ab1fae9b368455",
   "lastOpenFiles": [
+    "Images/RP2040-LCD-0.96-pinout.jpg",
+    "Waveshare RP2040 LCD.md",
+    "Images/Rotomaxetron-Wiring-Diagram.excalidraw.png",
+    "Rotomaxetron-Wiring-Diagram.excalidraw.md",
     "TRRS.png",
     "Images/TRRS.png",
-    "Waveshare RP2040 LCD.md",
     "Images/CD74HC4067-16.png",
-    "Images/RP2040-LCD-0.96-pinout.jpg",
     "Welcome.md",
     "Images/RotoMaxetron-Schematic.png",
     "PDFs/rp2040-datasheet.pdf",
-    "Excalidraw/Rotomaxetron-Wiring-Diagram.excalidraw.md",
     "PDFs/cd74hc4067-1.pdf",
     "PDFs",
     "Images",
@@ -208,9 +212,7 @@
     "Images/RP2040-LCD-0.96.png",
     "RotoMaxetron-Schematic",
     "RotoMaxetron-Schematic.part",
-    "Images/Matrix.png",
     "Matrix.png.part",
-    "Images/CD74HC4067-16_0.png",
     "Waveshare 2040 Pinout Reference",
     "Excalidraw"
   ]
