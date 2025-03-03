@@ -1,4 +1,0 @@
-adafruit-ampy
-rshell
-micropython-rp2-pico-stubs
-ruff

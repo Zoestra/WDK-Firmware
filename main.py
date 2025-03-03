@@ -1,9 +1,19 @@
 from machine import Pin
 from time import sleep
+import MuxDriver
 
-led = Pin("LED", Pin.OUT)
+value = True
 
 while True:
-    led.value(not led.value())
-    print("LED is ON" if led.value() else "LED is OFF")
-    sleep(0.5)
+
+    MuxDriver.send_mux(5, 1)
+    print("on")
+    #
+    value = not value
+    sleep(2)
+
+    MuxDriver.send_mux(5, 0)
+
+    print("off")
+
+    sleep(1)

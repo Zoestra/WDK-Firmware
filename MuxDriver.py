@@ -18,7 +18,7 @@ def read_mux(target: int):
     return mux_com.value
 
 
-def send_mux(target: int, value: bool):
+def send_mux(target: int, value):
 
     mux_sig_0.value(target & 1)
     mux_sig_1.value((target & 2) >> 1)
