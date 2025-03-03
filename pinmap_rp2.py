@@ -49,5 +49,7 @@ r3b = Pin(20, Pin.IN, Pin.PULL_DOWN)
 
 ######### Communication #########
 
-rx = Pin(17, Pin.IN, Pin.PULL_DOWN)
-tx = Pin(16, Pin.IN, Pin.PULL_DOWN)
+### UART pins will be defined later ###
+
+rx_pin = 17
+tx_pin = 16

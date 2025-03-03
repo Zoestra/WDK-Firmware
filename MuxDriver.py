@@ -1,4 +1,5 @@
 from machine import Pin
+from time import sleep_us
 
 mux_sig_0 = Pin(21, Pin.OUT, Pin.PULL_DOWN)
 mux_sig_1 = Pin(20, Pin.OUT, Pin.PULL_DOWN)
@@ -17,6 +18,8 @@ def read_mux(target: int):
     mux_sig_2.value((target & 4) >> 2)
     mux_sig_3.value((target & 8) >> 3)
 
+    sleep_us(1)
+
     return mux_com.value
 
 
@@ -31,5 +34,7 @@ def send_mux(target: int, value):
     mux_sig_1.value((target & 2) >> 1)
     mux_sig_2.value((target & 4) >> 2)
     mux_sig_3.value((target & 8) >> 3)
+
+    sleep_us(1)
 
     mux_com.value(value)
