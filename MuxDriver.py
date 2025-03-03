@@ -10,6 +10,8 @@ mux_com = Pin(22, Pin.OUT, Pin.PULL_DOWN)
 
 def read_mux(target: int):
 
+    mux_com.init(mode=Pin.IN)
+
     mux_sig_0.value(target & 1)
     mux_sig_1.value((target & 2) >> 1)
     mux_sig_2.value((target & 4) >> 2)
@@ -19,6 +21,11 @@ def read_mux(target: int):
 
 
 def send_mux(target: int, value):
+
+    ### send_mux is not used on the rotomaxetron ###
+    ### it is included only for testing purposes ###
+
+    mux_com.init(mode=Pin.OUT)
 
     mux_sig_0.value(target & 1)
     mux_sig_1.value((target & 2) >> 1)
