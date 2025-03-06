@@ -8,13 +8,13 @@ from MuxDriver import read_mux
 ######### Rows #########
 
 # Rows are write only
-row1 = Pin(0, Pin.OUT, Pin.PULL_DOWN)
-row2 = Pin(1, Pin.OUT, Pin.PULL_DOWN)
-row3 = Pin(2, Pin.OUT, Pin.PULL_DOWN)
-row4 = Pin(3, Pin.OUT, Pin.PULL_DOWN)
-row5 = Pin(4, Pin.OUT, Pin.PULL_DOWN)
-row6 = Pin(5, Pin.OUT, Pin.PULL_DOWN)
-row7 = Pin(6, Pin.OUT, Pin.PULL_DOWN)
+row1 = Pin(0, Pin.OUT, Pin.PULL_UP)
+row2 = Pin(1, Pin.OUT, Pin.PULL_UP)
+row3 = Pin(2, Pin.OUT, Pin.PULL_UP)
+row4 = Pin(3, Pin.OUT, Pin.PULL_UP)
+row5 = Pin(4, Pin.OUT, Pin.PULL_UP)
+row6 = Pin(5, Pin.OUT, Pin.PULL_UP)
+row7 = Pin(6, Pin.OUT, Pin.PULL_UP)
 
 ######### Columns #########
 
